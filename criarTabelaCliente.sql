@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS Cliente (
+ idCliente INT NOT NULL AUTO_INCREMENT,
+ Nom_Cliente VARCHAR(45) NULL,
+ Usuario_Cliente VARCHAR(12) NULL,
+ Senha_Cliente VARCHAR(12) NULL,
+ Email_Cliente VARCHAR(45) NULL,
+ Cpf_Cliente INT(11) NULL,
+ Cep_Cliente INT(8) NULL,
+ DataNasc_Cliente DATE NULL,
+ Sexo_Cliente VARCHAR(9) NULL,
+ Telefone_Cliente INT(11) NULL,
+ Estado_Cliente VARCHAR(20) NULL,
+ Cidade_Cliente VARCHAR(20) NULL,
+ Ender_Cliente VARCHAR(45) NULL,
+ Bairro_Cliente VARCHAR(45) NULL,
+ Num_Cliente INT(5) NULL,
+ PRIMARY KEY (idCliente));
